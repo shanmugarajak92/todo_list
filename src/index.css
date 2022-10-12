@@ -7,7 +7,58 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.input-group, .list-group{
+  width: 50%!important;
+  margin:auto;
+}
+
+.list-group{ 
+  margin-top: 20px;
+}
+
+.delete {
+  background-image: url(./assets/icons/trash-2.svg);
+  right: 10px;
+}
+
+.edit {
+  background-image: url(./assets/icons/edit.svg);
+  right: 40px;
+}
+
+.delete, .edit {
+  background-repeat: no-repeat;
+  background-size: 12px;
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  position: absolute;
+}
+
+.badge:empty {
+  display: block!important;
+}
+
+.bg-primary, .edit {
+  background-color: white!important;
+}
+
+.bg-danger {
+  background-color: white!important;
+}
+
+.check-complete {
+  margin-right: 1.25rem!important;
+}
+
+.emptyDiv {
+  margin: auto;
+  width: 50%;
+  height: 50px;
+  border: 1px solid #ced4da;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
 }
